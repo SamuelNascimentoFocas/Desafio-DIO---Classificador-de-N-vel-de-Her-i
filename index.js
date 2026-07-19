@@ -16,9 +16,8 @@ if (xpAmount < 1000){
     heroLevel = 'Ascendente'
 } else if (xpAmount >= 9001 && xpAmount <= 10000){
     heroLevel = 'Imortal'
-} else if (xpAmount >= 10001){
+} else {
     heroLevel = 'Radiante'
 }
-
 
 console.log(`O Herói de nome ${heroName} está no nível de ${heroLevel}`)
